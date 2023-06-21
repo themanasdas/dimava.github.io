@@ -36,7 +36,7 @@ if (!Date._hasKeydownListener)
         }
 }, true);
 Date._hasKeydownListener= true;
-Date.timeMultis = [1, 2, 5, 10, 20, 60];
+Date.timeMultis = [1, 60];
 Date.kds = {
     // number keys skip time
     1: () => Date.timeskip(10),
